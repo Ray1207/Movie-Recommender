@@ -17,11 +17,11 @@ Octave or Matlab installed, please refer to the installation instructions on the
 
 Step 1: Open the Recommender project folder in Octave
 
-Step 2: Open file main.m - here you can enter your own movie preferences, so that later when the algorithm
+Step 2: Open file main.m, go to Step 2 - here you can enter your own movie preferences, so that later when the algorithm
 runs, you can get your own movie recommendations. I have filled out
 some values according to my own preferences, but you should change this
 according to your own tastes. The list of all movies and their number in the
-dataset can be found listed in the file movie idx.txt.
+dataset can be found listed in the file movie ids.txt.
 
 Step 3: In Octave, type command - "main". Now the system will start training the collaborative filtering algorithm
 to make movie recommendations for you.
