@@ -26,3 +26,9 @@ dataset can be found listed in the file movie ids.txt.
 Step 3: In Octave, type command - "main". Now the system will start training the collaborative filtering algorithm
 to make movie recommendations for you.
 
+## Techniques Used
+
+1. Collaborative Filtering Model (with L2 Regularisation)
+2. Gradient Descent
+3. Vectorisation Programming
+
