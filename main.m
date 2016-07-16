@@ -9,7 +9,7 @@
 %  R - is a 1682x943 matrix, where R(i,j) = 1 if and only if user j gave a rating to movie i
 
 fprintf('Loading training data - movie ratings dataset.\n\n');
-load ('ex8_movies.mat');
+load ('movies_training.mat');
 
 
 %% ============== Step 2: Randomly set movie ratings for a new user that we just observed ===============
@@ -28,7 +28,7 @@ my_ratings(1) = 4;
 % Or suppose you did not enjoy Silence of the Lambs (1991), you can set
 my_ratings(98) = 2;
 
-% I randomly set some ratings here, but feel free to change them here
+% I randomly set some ratings here, but feel free to change them
 my_ratings(10) = 3;
 my_ratings(12)= 5;
 my_ratings(14) = 4;
@@ -78,7 +78,7 @@ Theta = reshape(theta(num_movies*num_features+1:end), ...
 fprintf('Recommender learning completed.\n');
 
 
-%% ================== Part 4: Make recommendation for you ====================
+%% ================== Step 4: Make recommendation for you ====================
 %  After training the model, now make recommendations by computing the predictions matrix.
 %
 
