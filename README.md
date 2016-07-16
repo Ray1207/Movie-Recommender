@@ -23,7 +23,7 @@ some values according to my own preferences, but you should change this
 according to your own tastes. The list of all movies and their number in the
 dataset can be found listed in the file movie ids.txt.
 
-Step 3: In Octave, type command - "main". Now the system will start training the collaborative filtering algorithm
+Step 3: In Octave, type command - "main". Now the system will start training the collaborative filtering model
 to make movie recommendations for you.
 
 ## Techniques Used
